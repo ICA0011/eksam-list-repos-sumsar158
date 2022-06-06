@@ -10,5 +10,4 @@ def retrieve_repos(username):
 
     result = json.loads(requests.get(url).text)
 
-    print(result)
     return len(result)
